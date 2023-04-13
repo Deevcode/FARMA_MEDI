@@ -1,0 +1,14 @@
+django 
+pillow
+django-admin-interface
+django-crispy-forms
+pymysql
+python-dotenv
+python-decouple
+mysqlclient
+django-bootstrap4
+django-environ
+django_mysql
+django-jsonfield
+django-json-field
+django-import-export

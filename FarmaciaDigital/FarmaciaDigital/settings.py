@@ -26,8 +26,8 @@ SECRET_KEY = "django-insecure-^n##yu%3(bd$=y@^7-_xni)2xql7x%^giwdjw&ic(&)$&3ro5-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-#ALLOWED_HOSTS = ['devcode05.pythonanywhere.com']
+#ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['devcode08.pythonanywhere.com']
 
 MESSAGE_HOST = "django.contrib.messages.storage.cookie.CookieStorage"
 
@@ -100,16 +100,16 @@ WSGI_APPLICATION = "FarmaciaDigital.wsgi.application"
 #}
 
 #ESTA CONFIGURACION ES PARA UTILIZAR LA BASE DE DATOS DE MYSQL PA
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.mysql',
-#        'NAME': 'DevCode05$farmacia',
-#        'USER': 'DevCode05',
-#        'PASSWORD': 'Raveboy999',
-#        'HOST': 'DevCode05.mysql.pythonanywhere-services.com',   # Or an IP Address that your DB is hosted on
-#        'PORT': '3306',
-#    }
-#}
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'Devcode08$farmacia',
+        'USER': 'Devcode08',
+        'PASSWORD': 'Raveboy999',
+        'HOST': 'Devcode08.mysql.pythonanywhere-services.com',   # Or an IP Address that your DB is hosted on
+        'PORT': '3306',
+    }
+}
 
 #ESTA CONFIGURACION ES PARA UTILIZAR LA BASE DE DATOS DE MYSQL
 DATABASES = {
